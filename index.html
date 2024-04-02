@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+<div class="mafia-image"><img src="./asset/image/mafia.jpg" alt="mafia"></div>
+        <div class="form-table">
+            <form class="form-container">
+                <input type="text" class="username" placeholder="Username" />
+                <input type="text" class="role" placeholder="Role" />
+                <button class="add">Add Role and Player</button>
+                <button class="btn">Submit</button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Role</th>
+                        <th>show role</th>
+                        <th>Remove player</th>
+
+
+                    </tr>
+                </thead>
+                <tbody id='playerList'>
+
+                </tbody>
+
+            </table>
+        </div>
+        <div class="time">
+            <h1 class="timer"></h1>
+            <div><button class="start">start</button>
+                <button class="reset">reset</button></div>
+            
+
+        </div>
+
+    </div>
+
+
+
+    <script src="./main.js"> </script>
+</body>
+
+</html>
